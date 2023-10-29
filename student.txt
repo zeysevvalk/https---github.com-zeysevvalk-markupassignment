@@ -2,4 +2,4 @@ Student name:   Zeynep Sevval Kirici
 Student number: 710818
 Student class: IT1A
 GitHub Repository: https://github.com/zeysevvalk/https---github.com-zeysevvalk-markupassignment
-GitHub Pages URL: your github pages 
+GitHub Pages URL: https://zeysevvalk.github.io/https---github.com-zeysevvalk-markupassignment/
