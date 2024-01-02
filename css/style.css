@@ -140,6 +140,7 @@ a:visited {
   color: white;
   margin: 10px 10px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .icons {
@@ -269,6 +270,7 @@ aside.row section {
 
 .contact-form section span input,
 .contact-form textarea {
+  text-transform: uppercase;
   height: 3rem;
   font-size: 2rem;
   border-radius: 0.5rem;
@@ -323,6 +325,7 @@ aside.row section {
   border:2px solid black;
   padding: 1.5em; 
   height: 230px;
+  z-index: 9999;
 }
 
 .title {
@@ -381,4 +384,15 @@ a:hover{
 
 .mt-4 {
   margin-top: 4rem; 
+}
+
+.navigations a:visited {
+  color: black;
+}
+
+ul li a.current:visited {
+  color: orange;
+}
+.navigations a:hover {
+  color: green;
 }

@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Zeynep Sevval Kirici">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -11,16 +12,18 @@
 <body>
     <header class="header">
         <img class="site__logo" src="img/logo.png" alt="logo">
-        <nav class="navigations">
-          <a href="/https---github.com-zeysevvalk-markupassignment/index.html">Home</a>
-          <a href="/https---github.com-zeysevvalk-markupassignment/whyisitimportant.html">Why is it important</a>
-          <a href="/https---github.com-zeysevvalk-markupassignment/vegan.html">Vegan</a>
-          <a href="/https---github.com-zeysevvalk-markupassignment/vegetarian.html">Vegetarian</a>
-          <a href="/https---github.com-zeysevvalk-markupassignment/halal.html">Halal</a>
-          <a href="/https---github.com-zeysevvalk-markupassignment/contact.html" class="btn__contact">Contact Us</a>
-        </nav>
-      </header>   
+        <ul>
+            <nav class="navigations">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./whyisitimportant.html">Why is it important</a></li>
+                <li><a href="./vegan.html" class="current">Vegan</a></li>
+                <li><a href="./vegetarian.html">Vegetarian</a></li>
+                <li><a href="./halal.html">Halal</a></li>
+                <li><a href="./contact.html" class="btn__contact">Contact Us</a></li>
+              </nav>
     
+        </ul>
+      </header>   
 
     <h1>
         <span>EATING PLACES FOR VEGANS</span>
@@ -31,8 +34,13 @@
         <section class="row justify-between">
             <section class="column">
                 <section class="row">
-                    <img class="align-image" src="img/mamapancake1.png" alt="Mama Pancake"/>
-                    <img class="align-image" src="img/mamapancake2.png" alt="Stach"/>
+                    <figure>
+                        <img class="align-image" src="img/mamapancake1.png" alt="Mama Pancake" title="pancake"/>
+                        <img class="align-image" src="img/mamapancake2.png" alt="Stach" title="Mama Pancake"/>
+                        <figcaption>A photo from Mama Pancake in Amsterdam</figcaption>
+
+                    </figure>
+                    
                 </section>
 
                 <h2>MAMA PANCAKE</h2>
@@ -48,8 +56,13 @@
             </section>
             <section class="column justify-between mt-2">
                 <section class="row">
-                    <img class="align-image" src="img/stachsecond.png" alt="People eating sandwiches" />
-                    <img class="align-image" src="img/stachsecond.png" alt="People eating sandwiches" />
+                    <figure>
+                        <img class="align-image" src="img/stachsecond.png" alt="People eating sandwiches" title="Stach"/>
+                        <img class="align-image" src="img/stachsecond.png" alt="People eating sandwiches" title="Stach" />
+                        <figcaption> A photo from the outside of Stach. </figcaption>
+                    </figure>
+                    
+
                 </section>
 
                 <h2>STACH</h2>
