@@ -93,7 +93,7 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 /* flex item */
-.navigations {
+.navigations ul{
   display: flex;
   gap: 3rem;
   background-color: var(--white-color);
@@ -103,7 +103,7 @@ h1,h2,h3,h4,h5,h6,p {
   flex-shrink: 1;
 }
 
-.navigations:hover {
+.navigations ul :hover {
     color: lightgreen;
   }
 
@@ -122,7 +122,7 @@ a:visited {
   height: 100px;
 }
 
-.navigations a {
+.navigations ul a {
   text-decoration: none;
   color: black;
   font-size: 1.5rem;
