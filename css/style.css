@@ -84,7 +84,7 @@ h1,h2,h3,h4,h5,h6,p {
 /* flex container */
 .header {
   padding: 1rem;
-
+  
   display: flex;
   flex-direction: column;
   flex-direction: row;
@@ -104,8 +104,8 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .navigations ul :hover {
-    color: lightgreen;
-  }
+  color: lightgreen;
+}
 
 a:link {
   text-decoration: none;
@@ -166,7 +166,7 @@ a:visited {
   background-color: black;
   color: white;
   padding: 20px;
-
+  
 }
 
 h2 {
@@ -335,19 +335,19 @@ aside.row section {
 } 
 
 .info {
-   line-height: 1.0em;
-   letter-spacing: 0.7px;
-   margin-bottom: 1em; 
+  line-height: 1.0em;
+  letter-spacing: 0.7px;
+  margin-bottom: 1em; 
 }
 .cta{
-   border: none;
-   outline: none;
-   padding: 0.3em 0.9em;
-   background-color:#bbb;
-   font-size: 1.5em;
-   font-weight:  bold;
-   cursor: pointer;
-   transition: background-color 0.4s;
+  border: none;
+  outline: none;
+  padding: 0.3em 0.9em;
+  background-color:#bbb;
+  font-size: 1.5em;
+  font-weight:  bold;
+  cursor: pointer;
+  transition: background-color 0.4s;
 }
 
 .cta:hover{
@@ -362,15 +362,15 @@ a {
 }
 
 a.settings{
-color:#bbb;
-border-bottom: none;
-font-size: 1.5em;
-margin-left: 2em;  
+  color:#bbb;
+  border-bottom: none;
+  font-size: 1.5em;
+  margin-left: 2em;  
 }
 
 a:hover{
   color: #3c9e66;
-
+  
 }
 
 .align-image {
@@ -395,4 +395,10 @@ ul li a.current:visited {
 }
 .navigations a:hover {
   color: green;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
